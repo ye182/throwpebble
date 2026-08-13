@@ -1,0 +1,7 @@
+﻿扔石子项目（可部署包）
+
+1) 本机：npm install → 复制 .env.example 为 .env → npm run dev
+2) 腾讯云轻量：上传本文件夹 → npm install → 配置 .env → npm run build → npm start
+3) 详见 DEPLOY.md / README.md
+
+测试账号：111111 / 111111

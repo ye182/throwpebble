@@ -1,0 +1,15 @@
+node_modules
+dist
+server/dist
+.env
+.env.local
+.env.*.local
+*.log
+debug-*.log
+.cursor/debug-*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+server/data/*.json
+!server/data/.gitkeep
+.cursor
