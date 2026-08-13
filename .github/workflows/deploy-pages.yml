@@ -33,7 +33,7 @@ jobs:
       - name: Build client (static)
         run: npm run build:client
         env:
-          VITE_BASE: /ThrowPebble/
+          VITE_BASE: /throwpebble/
           VITE_STATIC_DEPLOY: "true"
 
       - name: Add SPA fallback for Pages
