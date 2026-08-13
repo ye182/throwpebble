@@ -3,10 +3,9 @@ import { login, register, setToken, type PublicUser } from "../lib/api";
 
 type Props = {
   onSuccess: (user: PublicUser) => void;
-  onBackIntro?: () => void;
 };
 
-export function LoginPanel({ onSuccess, onBackIntro }: Props) {
+export function LoginPanel({ onSuccess }: Props) {
   const [mode, setMode] = useState<"login" | "register">("login");
   const [contact, setContact] = useState("");
   const [password, setPassword] = useState("");
@@ -208,12 +207,6 @@ export function LoginPanel({ onSuccess, onBackIntro }: Props) {
             </p>
           )}
         </form>
-
-        {onBackIntro && (
-          <button type="button" className="login-clean-back" onClick={onBackIntro}>
-            重新观看开场
-          </button>
-        )}
       </div>
     </div>
   );

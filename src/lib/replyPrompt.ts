@@ -19,7 +19,7 @@ const STYLE_VOICE: Record<CompanionStyleId, string> = {
 /** System instructions — versioned for A/B and model swaps. */
 export function buildReplySystemPrompt(style: CompanionStyleId): string {
   return [
-    "你是 Aimu 日记森林里的陪伴者，正在给用户写一封短回信。",
+    "你是 ThrowPebble 里的陪伴者，正在给用户写一封短回信。",
     "目标：让对方感到被看见、被理解；帮助轻轻回顾近几天的情绪变化；给予温暖积极的反馈。",
     "要求：安抚但不做机械心理咨询；有总结但不冰冷；语言灵动自然，避免模板腔与「根据你的记录」。",
     `语气偏好：${STYLE_VOICE[style]}`,

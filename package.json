@@ -1,9 +1,9 @@
 {
-  "name": "throw-pebble",
+  "name": "ThrowPebble",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "扔石子项目：开场抛石动画 + 日记小屋 + 日历 + 信件",
+  "description": "ThrowPebble：开场抛石动画 + 日记小屋 + 日历 + 信件",
   "scripts": {
     "dev": "concurrently -k -n server,client -c cyan,magenta \"npm run dev:server\" \"npm run dev:client\"",
     "dev:client": "vite",

@@ -98,7 +98,6 @@ export default function App() {
             setUser(u);
             setPhase("diary");
           }}
-          onBackIntro={() => setPhase("intro")}
         />
       )}
     </div>
